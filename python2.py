@@ -88,6 +88,8 @@ def Ab():
             bob += 1
     if alice > bob:
         print('alice won')
+    elif alice==bob:
+        print('No point to Both')
     else:
         print('bob won')
 if __name__ == '__main__':
